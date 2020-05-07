@@ -11,6 +11,16 @@
   background-color: aquamarine;
 }
 
+.recipeBox {
+  border-style: solid;
+  border-color: blueviolet;
+}
+
+.drinkBox {
+  border-style: solid;
+  border-color: palevioletred;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

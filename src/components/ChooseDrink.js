@@ -3,7 +3,7 @@ import React from "react";
 export class ChooseDrink extends React.Component {
   render() {
     return (
-      <div className="Container-fluid py-5">
+      <div className="Container py-5">
         <div classNam="Row">
           <div className="Col">
             <h3>Pick your poison</h3>

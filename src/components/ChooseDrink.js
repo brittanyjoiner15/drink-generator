@@ -7,7 +7,7 @@ export class ChooseDrink extends React.Component {
         <div classNam="Row">
           <div className="Col">
             <h3>Pick your poison</h3>
-            <form>
+            <form onSubmit={this.props.onSubmit}>
               <div className="form-group">
                 <select className="form-control-lg" id="cars" name="cars">
                   <option value="whiskey">Whiskey</option>
@@ -18,6 +18,7 @@ export class ChooseDrink extends React.Component {
                   <option value="kahlua">Kahlua</option>
                 </select>
               </div>
+              {/* to do - add button event to run above function */}
               <button type="submit" className="btn-primary btn-lg">
                 Show Me Drinks
               </button>

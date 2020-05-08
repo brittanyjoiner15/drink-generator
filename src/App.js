@@ -5,14 +5,30 @@ import { Header } from "./components/header";
 import { ChooseDrink } from "./components/ChooseDrink";
 import { RecipeBox } from "./components/RecipeBox";
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <ChooseDrink />
-      <RecipeBox />
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      ingredient: "",
+    };
+  }
+
+  onSubmit = (e) => {
+    e.preventDefault();
+    this.setState({ ingredient: e.target.elements[0].value });
+  };
+
+  render() {
+    console.log(this.state);
+    return (
+      <div className="App">
+        <Header />
+        <ChooseDrink onSubmit={this.onSubmit} />
+        <RecipeBox ingredient={this.state.ingredient} />
+      </div>
+    );
+  }
 }
 
 export default App;

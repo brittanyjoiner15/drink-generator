@@ -2,19 +2,19 @@
   "Drinks": [
     {
       "name": "OldFashioned",
-      "ingredients": "orange, bourbon, bitters",
+      "ingredients": ["orange", "bourbon", "bitters"],
       "directions": "1. Mix things Together. 2 Done.",
       "image": "https://brittanyjoiner.netlify.app/images/penge.png"
     },
     {
       "name": "NewFashioned",
-      "ingredients": "orange, whiskey, bitters",
+      "ingredients": ["orange", "whiskey", "bitters"],
       "directions": "1. Mix things Together. 2 Done.",
       "image": "https://brittanyjoiner.netlify.app/images/penge.png"
     },
     {
       "name": "RumFashioned",
-      "ingredients": "orange, rum, bitters",
+      "ingredients": ["orange", "rum", "bitters"],
       "directions": "1. Mix things Together. 2 Done.",
       "image": "https://brittanyjoiner.netlify.app/images/penge.png"
     }

@@ -16,6 +16,11 @@ export class ChooseDrink extends React.Component {
                   <option value="vodka">Vodka</option>
                   <option value="gin">Gin</option>
                   <option value="kahlua">Kahlua</option>
+                  <option value="tequila">Tequila</option>
+                  <option value="baileys">Baileys</option>
+                  <option value="brandy">Brandy</option>
+                  <option value="scotch">Scotch</option>
+                  <option value="vermouth">Vermouth</option>
                 </select>
               </div>
               {/* to do - add button event to run above function */}

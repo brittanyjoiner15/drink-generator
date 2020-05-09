@@ -1040,7 +1040,7 @@
 
 "@elastic/eui@elastic/eui":
   version "23.3.0"
-  resolved "https://codeload.github.com/elastic/eui/tar.gz/12074a5827c27500ade1747661c59608b0980cf6"
+  resolved "https://codeload.github.com/elastic/eui/tar.gz/826bdb594c422e2d6ece7b6779777bfffe461799"
   dependencies:
     "@types/chroma-js" "^2.0.0"
     "@types/enzyme" "^3.1.13"

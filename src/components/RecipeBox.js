@@ -8,7 +8,7 @@ export class RecipeBox extends React.Component {
     console.log(this.props.ingredient);
 
     const filteredDrinks = jsonData.Drinks.filter((drink) => {
-      return drink.ingredients.includes(this.props.ingredient);
+      return drink.alcohol.includes(this.props.ingredient);
     });
 
     return (
@@ -30,7 +30,8 @@ export class RecipeBox extends React.Component {
                   </div>
                   <div className="col-md-6">
                     <h4>{drink.ingredients.join(", ")}</h4>
-                    <h4>{drink.directions}</h4>
+                    <p>{drink.directions}</p>
+                    <a href={drink.source}>Source</a>
                   </div>
                 </div>
               </div>

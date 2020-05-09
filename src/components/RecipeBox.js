@@ -12,24 +12,23 @@ export class RecipeBox extends React.Component {
     });
 
     return (
-      <div className="Container mx-2 recipeBox">
-        <div className="Row">
-          <div ClassName="Col">
-            <h1>Recipes</h1>
-          </div>
-        </div>
-
+      <div className="Container mx-2">
+        <hr />
         {filteredDrinks.map((drink, i) => {
           return (
             <div className="row">
-              <div className="col m-3 drinkBox p-2" key={drink.name}>
-                <h4>{drink.name}</h4>
+              <div className="col m-3 drinkBox p-4" key={drink.name}>
+                <h2>
+                  <em>{drink.name}</em>
+                </h2>
+                <hr />
                 <div className="Row d-flex p-3">
-                  <div className="col-md-6">
-                    <img src={drink.image} width="50%" />
+                  <div className="col-md-6  drinkImg">
+                    <img src={drink.image} width="70%" />
                   </div>
                   <div className="col-md-6">
                     <h4>{drink.ingredients.join(", ")}</h4>
+                    <br />
                     <p>{drink.directions}</p>
                     <a href={drink.source}>Source</a>
                   </div>

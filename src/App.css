@@ -21,6 +21,11 @@
   border-color: palevioletred;
 }
 
+.drinkImg {
+  border-right-color: grey;
+  border-right-style: solid;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

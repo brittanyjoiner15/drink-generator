@@ -24,7 +24,7 @@ export class ChooseDrink extends React.Component {
                 </select>
               </div>
               {/* to do - add button event to run above function */}
-              <button type="submit" className="btn-primary btn-lg">
+              <button type="submit" className="btn-primary btn-lg my-3">
                 Show Me Drinks
               </button>
             </form>

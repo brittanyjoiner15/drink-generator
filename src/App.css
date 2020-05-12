@@ -21,9 +21,8 @@
   border-color: palevioletred;
 }
 
-.drinkImg {
-  border-right-color: grey;
-  border-right-style: solid;
+.ingredientList {
+  list-style: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {

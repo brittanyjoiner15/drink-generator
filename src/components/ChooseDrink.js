@@ -1,4 +1,5 @@
 import React from "react";
+import { EuiButton, EuiFlexGroup, EuiFlexItem } from "@elastic/eui";
 
 export class ChooseDrink extends React.Component {
   render() {
@@ -23,7 +24,6 @@ export class ChooseDrink extends React.Component {
                   <option value="vermouth">Vermouth</option>
                 </select>
               </div>
-              {/* to do - add button event to run above function */}
               <button type="submit" className="btn-primary btn-lg my-3">
                 Show Me Drinks
               </button>

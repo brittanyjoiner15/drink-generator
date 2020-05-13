@@ -1,8 +1,6 @@
 import React from "react";
 import jsonData from "../drinks.json";
 
-//** filter for showing only stuff with value */
-
 export class RecipeBox extends React.Component {
   render() {
     console.log(this.props.ingredient);

@@ -4,6 +4,7 @@ import "./App.css";
 import { Header } from "./components/header";
 import { ChooseDrink } from "./components/ChooseDrink";
 import { RecipeBox } from "./components/RecipeBox";
+import { Stack } from "./components/stackingTest";
 
 class App extends React.Component {
   constructor(props) {
@@ -26,6 +27,7 @@ class App extends React.Component {
         <Header />
         <ChooseDrink onSubmit={this.onSubmit} />
         <RecipeBox ingredient={this.state.ingredient} />
+        <Stack />
       </div>
     );
   }

@@ -5,6 +5,7 @@ export class Header extends React.Component {
     return (
       <div className="container-fluid topper py-5">
         <h1>Drink Recipe Generator</h1>
+        <h3>Pick your alcohol, and see recommended recipes!</h3>
       </div>
     );
   }

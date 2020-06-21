@@ -27,7 +27,6 @@ class App extends React.Component {
         <Header />
         <ChooseDrink onSubmit={this.onSubmit} />
         <RecipeBox ingredient={this.state.ingredient} />
-        <Stack />
       </div>
     );
   }

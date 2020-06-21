@@ -1,5 +1,4 @@
 import React from "react";
-import { EuiButton, EuiFlexGroup, EuiFlexItem } from "@elastic/eui";
 
 export class ChooseDrink extends React.Component {
   render() {

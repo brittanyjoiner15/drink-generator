@@ -394,6 +394,20 @@
       "directions": "Muddle the lemon in a shaker. Add the remaining ingredients and ice and shake. Double-strain into a rocks glass over ice. Slap a mint sprig between your hands and use as garnish. Serve with a straw.",
       "image": "https://trello-attachments.s3.amazonaws.com/5c3174bfd2f31c356736c742/5eb5e96f599ff27daccdb61f/ffc29ad0708b9987ae2b641ad30e5e03/image.png",
       "source": "https://www.liquor.com/recipes/whiskey-smash/"
+    },
+    ,
+    {
+      "name": "Grapefruit Margarita",
+      "alcohol": ["tequila"],
+      "ingredients": [
+        "3 ounces grapefruit",
+        "1 ounce lime juice",
+        "1.5 ounces triple sec",
+        "1 tsp simple syrup (or honey)"
+      ],
+      "directions": "Fill a cocktail shaker with ice. Add all the ingredients, shake until combined. Pour over ice and serve immediately. Garnish with lime or grapefruit wedge as desired.",
+      "image": "https://trello-attachments.s3.amazonaws.com/5c3174bfd2f31c356736c742/5ef1520bf790fb5f51d3b5ce/37226901f543b3671bf842a97c0f887e/image.png",
+      "source": "https://thetoastykitchen.com/fresh-grapefruit-margarita/"
     }
   ]
 }
